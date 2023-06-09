@@ -1,8 +1,8 @@
 # Movie Recommender System using Jupyter Notebook and Streamlit
-- This repository contains code for a movie recommender system implemented in two parts: a Jupyter Notebook for data preprocessing and model building, and a Streamlit web application for displaying recommendations based on user input.
+This repository contains code for a movie recommender system implemented in two parts: a Jupyter Notebook for data preprocessing and model building, and a Streamlit web application for displaying recommendations based on user input.
 
 # Jupyter Notebook
-- The Jupyter Notebook file (movie_recommender.ipynb) contains the code for data preprocessing, model building, and saving the necessary files for the web application. Here are the main sections of the notebook:
+The Jupyter Notebook file (movie_recommender.ipynb) contains the code for data preprocessing, model building, and saving the necessary files for the web application. Here are the main sections of the notebook:
 
 - Importing Libraries: This section imports the required libraries for data analysis and visualization.
 
@@ -23,7 +23,7 @@
 
 - Function to Recommend Movies: This function recommends similar movies based on a given movie using the precomputed similarity matrix.
 
-- Streamlit App: The Streamlit web application is created with the following sections:
+Streamlit App: The Streamlit web application is created with the following sections:
 
 - Header: Displays the title of the app.
 - Data Loading: Loads the preprocessed data and similarity matrix from the pickle files.
