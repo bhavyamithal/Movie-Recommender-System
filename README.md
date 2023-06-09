@@ -17,7 +17,7 @@ The Jupyter Notebook file (movie_recommender.ipynb) contains the code for data p
 - Saving Data: The preprocessed data and similarity matrix are saved as pickle files (movies_dict.pkl and similarity.pkl, respectively) for later use in the web application.
 
 # Streamlit Web Application
-- The Streamlit web application file (app.py) uses the saved pickle files from the Jupyter Notebook to display movie recommendations. Here is an overview of the code:
+The Streamlit web application file (app.py) uses the saved pickle files from the Jupyter Notebook to display movie recommendations. Here is an overview of the code:
 
 - Function to Fetch Movie Poster: This function fetches the poster of a movie given its ID using the TMDb API.
 
